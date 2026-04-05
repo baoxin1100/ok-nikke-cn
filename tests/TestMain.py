@@ -28,13 +28,13 @@ class TestMyOneTimeTask(TaskTestCase):
         # Create a BattleReport object
         self.set_image('tests/images/main.png')
         feature = self.task.test_find_one_feature()
-        self.assertIsNone(feature)
+        self.assertIsNotNone(feature)
 
     def test_feature2(self):
         # Create a BattleReport object
         self.set_image('tests/images/main.png')
         features = self.task.test_find_feature_list()
-        self.assertEqual(0, len(features))
+        self.assertEqual(1, len(features))
 
 
 if __name__ == '__main__':

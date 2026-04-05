@@ -94,8 +94,9 @@ config = {
             'default': {
                 'github': 'https://github.com/ok-oldking/ok-py',
                 'discord': 'https://discord.gg/vVyCatEBgA',
-                'sponsor': 'https://www.paypal.com/ncp/payment/JWQBH7JZKNGCQ',
                 'share': 'Download from https://github.com/ok-oldking/ok-py',
+                'qq_group':'https://qm.qq.com/q/3Gq4VLvQe',
+                'qq_channel': 'https://pd.qq.com/s/djmm6l44y',
                 'faq': 'https://github.com/ok-oldking/ok-py'
             }
         },
